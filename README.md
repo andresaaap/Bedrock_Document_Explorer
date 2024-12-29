@@ -166,3 +166,15 @@ To use it:
 - For any Terraform errors, ensure you're using a compatible version and that all module sources are correctly specified.
 
 For more detailed troubleshooting, refer to the error messages and logs provided by Terraform and the Python scripts.
+
+Temperature and top_p are crucial parameters in AI language models that influence response generation.
+
+### Model Parameters: explanation of how temperature and top_p affect AI responses
+
+## Temperature
+**Temperature** controls the randomness of the model's outputs. Lower values (0-0.3) yield more deterministic and coherent responses, ideal for factual tasks. Medium values (0.3-0.7) balance creativity and coherence, while higher values (0.7-1) promote diverse and imaginative outputs but may sacrifice clarity.
+
+## Top_p
+**Top_p**, or nucleus sampling, determines the range of tokens considered during generation. A low top_p (e.g., 0.5) restricts choices to the most probable tokens, enhancing focus, whereas a high top_p (e.g., 0.9) allows for a broader selection, increasing diversity in responses. 
+
+Together, these parameters enable fine-tuning of AI outputs for various applications, from precise answers to creative storytelling.
