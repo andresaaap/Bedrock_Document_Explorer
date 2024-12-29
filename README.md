@@ -31,6 +31,11 @@ This project consists of several components:
 
 The goal is to create a Bedrock Knowledge Base that can leverage data stored in an Aurora Serverless database, with the ability to easily upload supporting documents to S3. This will allow us to ask the LLM for information from the documentation.
 
+## Libraries and Tools
+
+- boto3: This is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python. It allows Python developers to write software that makes use of services like Amazon S3, Amazon EC2, and Amazon DynamoDB. Boto3 provides an easy-to-use, object-oriented API as well as low-level access to AWS services. It is a powerful tool for interacting with AWS resources programmatically.
+- streamlit: This is an open-source app framework specifically designed for creating and sharing data applications. Streamlit allows you to build interactive web applications quickly and easily, using only Python scripts. It is particularly popular in the data science community for creating dashboards and visualizations, as it simplifies the process of turning data scripts into shareable web apps without requiring extensive web development knowledge.
+
 ## Prerequisites
 
 Before you begin, ensure you have the following:
